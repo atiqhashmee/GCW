@@ -1,0 +1,12 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*", "/*.css", "/*.js", "/*.svg", "/*.jpg", "/*.png"]
+  },
+  "mimeTypes": {
+    ".svg": "image/svg+xml"
+  },
+  "globalHeaders": {
+    "Cache-Control": "public, max-age=3600"
+  }
+}
